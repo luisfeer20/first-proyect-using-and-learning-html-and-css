@@ -1,0 +1,202 @@
+body {
+  background-color: white;
+}
+
+.top-page {
+  word-spacing: 15px;
+  color: white;
+  float: right;
+  font-size: 15px;
+  font-family: Arimo;
+}
+.registrer {
+  background-color: #e62a1e;
+  padding: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+hr {
+  color: white;
+  opacity: 0.3;
+  width: 100%;
+  float: right;
+}
+
+header {
+  background-image: url(/images/bg-home-1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+p1 {
+  color: #e62a1e;
+  font-family: Paytone One;
+  font-size: 200%;
+  font-style: normal;
+}
+
+p2 {
+  color: white;
+  font-family: Paytone One;
+  font-size: 200%;
+  font-style: normal;
+}
+
+.information {
+  float: center;
+  text-align: center;
+  color: white;
+  font-family: Paytone One;
+  font-size: 200%;
+}
+
+h2 {
+  color: hsl(0deg 0% 15%);
+  font-family: Hammersmith One;
+  font-size: 200%;
+}
+
+.column {
+  font-family: Cabin Condensed;
+  font-size: 20px;
+  font-style: normal;
+  color: hsl(0deg 0% 15%);
+}
+
+.bottominformation {
+  background-image: url(/images/bg-venue.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+.venue {
+  font-size: 65px;
+  font-family: Candal;
+  text-transform: uppercase;
+}
+.docinfo {
+  font-size: 30px;
+  font-family: Paytone One;
+}
+
+.column {
+  display: inline-block;
+  vertical-align: right;
+}
+
+.row {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.column-301 {
+  width: 50%;
+  text-align: left;
+}
+
+.column-303 {
+  width: 29%;
+  text-align: left;
+  float: right;
+  border-color: rgba(26, 26, 26, 0.3);
+  border-style: solid;
+  margin-top: 0.1%;
+  margin-bottom: 0.1%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.view {
+  font-family: Cabin Condensed;
+  font-size: 15px;
+  border-color: white;
+  border-style: solid;
+  margin-right: 40%;
+  margin-left: 40%;
+  border-width: 3%;
+}
+p2 {
+  color: hsl(0deg 0% 15%);
+  font-family: Hammersmith One;
+  font-size: 200%;
+}
+.underline {
+  border: 5px solid #e62a1e;
+  opacity: 1;
+  width: 5%;
+  float: left;
+}
+
+element.style {
+  border-left: 25%;
+}
+section.row {
+  padding: 0px 50px;
+}
+
+.lastinformation {
+  padding: 0px 50px;
+}
+
+.datetime {
+  width: 29%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.location {
+  width: 29%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.download {
+  width: 10%;
+  float: right;
+  color: #e62a1e;
+  border: solid #e62a1e;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.time {
+  background-image: url(/images/bg-parallax.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+}
+.TT {
+  color: white;
+  font-family: Cabin Condensed;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
